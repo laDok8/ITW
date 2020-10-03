@@ -1,0 +1,299 @@
+#page-top{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	color: #868e96;
+	margin: 0;
+}
+.navbar-nav li{
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	width: 100%
+}
+#section-home{
+	height: 95vh;
+}
+.dark{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+}
+#section-gallery, #section-events, #section-about, #section-menu{
+	background: white;
+}
+ #footer, #section-events{
+ 	background: rgb(245,245,245);
+ }
+#section-testimonials{
+	background: #e4f8f4;
+}
+.nick{
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: 100;
+	margin-top: 10px;
+}
+#navbar img{
+	width: auto;
+	height: auto;
+}
+.price{
+	float: right;
+	position: relative;
+	bottom: 3em;
+}
+.menucols{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.menucols ul{
+	margin: 0;
+}
+.menuitem{
+	width: 50%;
+	min-width: 500px;
+	margin-top: 20px;
+}
+.menucols ul{
+	margin-top: -20px;
+}
+ul{
+	list-style: none;
+}
+[role=tablist]{
+	display: flex;
+}
+[role=tab], .btn{
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 15px;
+	padding: 1em;
+	font-size: 13px;
+}
+.rounded-circle{
+	margin: 20px 0 10px 0;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+.testimonial{
+	float: left;
+	width: 33%;
+	max-width: 300px;
+	text-align: center;
+}
+.card-deck{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	width: 31%;
+	min-width: 350px;
+	height: 500px;
+	margin: 10px;
+	background-color: white;
+	overflow: hidden;
+}
+.card a{
+	color: #ee0427;
+	font-size: 22px;
+}
+.card-img-top{
+	width: 100%;
+	max-width: none;
+}
+.photos{
+	display: flex;
+	margin-bottom: 20px
+}
+.photos p{
+	margin: 0px 10px;
+	width: 33%;
+}
+#section-about{
+	display: flex;
+}
+.descript{
+	width: 33%;
+	min-width: 350px;
+	float: right;
+	margin-left: 3%;
+}
+#section-about > .content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.navbar-nav{
+	margin: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+h2{
+	text-align: center;
+	font-size: 32px;
+	color: #212529;
+	margin-bottom: 5%;
+}
+h1,.dark  h2{
+	font-size: 62px;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+}
+p{
+	margin: 0px;
+	line-height: 2;
+}
+.content{
+	max-width: 1140px;
+	padding: 150px 15px;
+}
+#navbar .content{
+	padding: 0px;
+}
+.sub-heading{
+	width: 500px;
+	line-height: 2;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 20px auto 50px auto;
+	margin-bottom: 5%;
+	text-align: center;
+}
+#footer .content{
+	margin: 0;
+	padding: 0;
+}
+#section-home > .content{
+	text-align: center;
+}
+section,nav,footer{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#section-home .btn:hover{
+	background-color: white;
+	color: rgba(0, 0, 0, 0.8);
+}
+.card-body{
+	margin: auto;
+	margin-top: 10%;
+	width: 80%;
+}
+.testimonial:before{
+	font-family: Crimson Text;
+	content: "“";
+	font-size: 100px;
+	color: black;
+}
+blockquote{
+	margin-top: -50px;
+	font-family: Crimson Text;
+	line-height: 1.5;
+	color: #212529;
+	max-width: 200px;
+	text-align: center;
+}
+h1, h2{
+	margin-top: 10%;
+}
+.navbar-nav, .btn{
+	font-weight: 100;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+section:not(.dark) h2{
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-weight: 300;
+
+}
+.descript p{
+	margin: 16px 0px;
+}
+.descript h2{
+	text-align: left;
+	margin-top: 0px;
+}
+.linkdown{
+	color: red;
+}
+#section-home .btn{
+	margin: 0px;
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dark h2{
+	color: white;
+	font-weight: 300;
+}
+h1{
+	font-weight: 300;
+	color: white;	
+}
+h3, .price{
+	color: #212529;
+	font-weight: 300;
+	margin: 0;
+}
+.linkdown:hover,h4 a:hover,#footer a:hover{
+	color: #005dd0;
+}
+.name{
+	color: #212529;
+	font-weight: 100;
+}
+small{
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 0;
+}
+h4{
+	font-weight: 300;
+	margin: 5px 0px 10px 0px;
+	line-height: 1;
+}
+.card-body p{
+	line-height: 1.5;
+	font-weight: 300;
+}
+#footer{
+	padding: 20vh 0 50px 0;
+}
+#footer a{
+	color: black;
+}
+#footer content{
+	font-weight: 200;
+}
+.dark .content{
+	padding: 250px 15px;
+}
+#section-menu .content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h3{
+	margin-bottom: 8px;
+}
+#section-about .photos p{
+	width: 50%
+}
+#section-about .photos{
+	width: 64%
+}
+.active{
+	border: 1px solid black;
+	color: black;
+	font-weight: 300;
+}
+#navbar{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
